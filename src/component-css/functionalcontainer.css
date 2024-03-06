@@ -1,0 +1,51 @@
+.functional-container{
+
+height: 88vh;
+width: 100vw;
+/* background-color: rgb(207, 90, 90); */
+/* background: url(../assets/compactDx-portal-landing-page\(2\).svg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover; */
+display: flex;
+flex-direction: column;
+/* justify-content: space-evenly; */
+align-items: center;
+}
+.search-container{
+height: 10%;
+width: 96%;
+/* background: red; */
+
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+}
+.search-select-container{
+
+    width: 36%;
+    height: 50%;
+    border-radius: 5px;
+    border: solid 1px rgb(195, 195, 195);
+
+
+}
+
+
+.filter-container{
+    width: 20%;
+    height: 50%;
+    border-radius: 5px;
+    border: solid 1px rgb(195, 195, 195);
+
+
+
+}
+.experimentFile-container{
+border-radius: 20px;
+/* background-color: aqua; */
+    width: 94%;
+    height: 80%;
+    border: solid 1px rgb(195, 195, 195);
+}

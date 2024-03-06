@@ -1,0 +1,173 @@
+
+.Both_Report_Wrapper{
+  height: 85vh;
+  width: 100vw;
+
+ display: flex;
+ flex-direction: column;
+ /* background: white; */
+
+
+}
+.Both_Report_Main_Container{
+margin-top: -5px;
+  height: 75vh;
+  width: 100vw;
+/* margin-top: 20px; */
+  /* background:white; */
+  display: flex;
+  justify-content: space-evenly;
+  /* background: red; */
+}
+.Both_Report_Main_Container_Left_Side{
+/* background: green; */
+flex-basis: 53%;
+display: flex;
+flex-direction: column;
+justify-content:space-between
+}
+.Both_Report_Main_Container_Left_Side_Header{
+height: 15%;
+/* background-color: blueviolet; */
+/* margin-top: -30px; */
+width: 100%;
+display: flex;
+align-items: center;
+}
+.Both_Report_Main_Container_Left_Side_Graph{
+  margin-top: -30px;
+  height: 85%;
+
+
+
+
+  backdrop-filter: blur(10px) saturate(200%);
+  -webkit-backdrop-filter: blur(10px) saturate(200%);
+  background-color: rgba(255, 255, 255, 0.68);
+
+  /* background-color:#ffffff;   */
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+}
+.Both_Report_Main_Container_Right_Side{
+/* background: yellow; */
+flex-basis: 40%;
+display: flex;
+flex-direction: column;
+justify-content:space-evenly;
+/* background:red; */
+}
+.Both_Report_Main_Container_Right_Side_First_Row{
+  height: 8%;
+  /* background: rgb(8, 212, 35); */
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+ 
+}
+
+.Both_Report_Main_Container_Right_Side_Third_Row{
+  height: 65%;
+  width: 100%;
+  background: rgb(69, 50, 137);
+  overflow-x: scroll;
+  margin-bottom: 10px;
+
+}
+
+
+.analysis_popup{
+/* style={{ height: "100vh", width: "100vw", background: "red", zIndex: 1, margin: "auto auto" }} */
+/* position: absolute; */
+width: "50vw";
+height:"50vh" ;
+border-radius: 20px;
+/* background-color: #f0f0f0; */
+  /* Add box shadow */
+  /* box-shadow: 0px 0px 8px 15px rgba(0, 0, 0, 0.1); */
+ /* display: flex; */
+ /* flex-direction: column; */
+left: 15%;
+align-items: center;
+}
+
+.checkbox-container {
+display: inline-block;
+position: relative;
+cursor: pointer;
+user-select: none;
+}
+
+.checkmark {
+position: absolute;
+top: 0;
+left: 0;
+height: 25px;
+width: 25px;
+background-color: #ffffff;
+border: 1px solid #707070;
+border-radius: 5px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 18px;
+color: #ff6f00;
+font-weight: bold;
+}
+
+.checkbox-container input {
+opacity: 100;
+cursor: pointer;
+height: 100;
+width: 0;
+}
+
+.initialization_pop_up_1{
+  position: absolute;
+  width: 50%;
+  height:"100vh" ;
+  border-radius: 20px;
+  background-color: #f0f0f0;
+    /* Add box shadow */
+    box-shadow: 0px 0px 8px 15px rgba(0, 0, 0, 0.1);
+   display: flex;
+   flex-direction: column;
+ left: 25%;
+ align-items: center;
+}
+.initialization_pop_up_4{
+  position: absolute;
+  width: 40%;
+  height:35% ;
+  border-radius: 20px;
+  background-color: #f0f0f0;
+    /* Add box shadow */
+    box-shadow: 0px 0px 8px 15px rgba(0, 0, 0, 0.1);
+   display: flex;
+   flex-direction: column;
+ left: 30%;
+ top: 20%;
+ align-items: center;
+ 
+
+}
+
+.initialization_pop_up_1_advance{
+
+  position: absolute;
+  width: 70%;
+  height:"80%" ;
+  border-radius: 20px;
+  background-color: #f0f0f0;
+    /* Add box shadow */
+    box-shadow: 0px 0px 8px 15px rgba(0, 0, 0, 0.1);
+   display: flex;
+   flex-direction: column;
+ left: 15%;
+ align-items: center;
+}

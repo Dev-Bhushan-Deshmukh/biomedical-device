@@ -1,0 +1,68 @@
+.graph-report-container{
+   
+    background:url(../assets/compactDx-portal-landing-page\(2\).svg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+  height: 100vh;
+
+}
+#sample-holder{
+height: 50%;
+    background-color: rgb(255, 108, 0);
+    border: solid 1px rgb(161, 161, 161);
+}
+#sample-row{
+    height: 60%;
+    width: 100%;
+    
+
+
+    backdrop-filter: blur(10px) saturate(200%);
+    -webkit-backdrop-filter: blur(10px) saturate(200%);
+    background-color: rgba(255, 255, 255, 0.58);
+    border: 1px solid rgba(6, 43, 99, 0.3);
+}
+.Both_Report_Main_Container_Right_Side_Second_Row{
+    height: 15%;
+    /* height: fit-content; */
+    /* background: rgb(23, 163, 202); */
+    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    /* border: solid 1px rgb(148, 37, 37); */
+    width: 100%;
+
+
+
+
+  }
+  #sample-table-header{
+
+
+
+
+height: 20%;
+    /* box-shadow: -2px 2px 16px -3px rgba(0,0,0,0.7);
+    -webkit-box-shadow: -2px 2px 16px -3px rgba(0,0,0,0.7);
+    -moz-box-shadow: -2px 2px 16px -3px rgba(0,0,0,0.7); */
+    backdrop-filter: blur(10px) saturate(200%);
+    -webkit-backdrop-filter: blur(10px) saturate(200%);
+    background-color: rgba(255, 255, 255, 0.58);
+    /* border: 1px solid rgba(6, 43, 99, 0.3); */
+    
+
+
+    /* background-color: antiquewhite; */
+  }
+  .sample-detail-items{
+
+
+    backdrop-filter: blur(10px) saturate(200%);
+    -webkit-backdrop-filter: blur(10px) saturate(200%);
+    background-color: rgba(255, 255, 255, 0.58);
+    /* border: 1px solid rgba(6, 43, 99, 0.3); */
+    
+
+  }

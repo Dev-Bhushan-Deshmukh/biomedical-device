@@ -1,0 +1,28 @@
+#d{
+height: 100vh;
+width: 100vw;
+
+background: rgb(255, 255, 255);
+}
+.splash-container-1{
+    height: 100vh;
+    width: 100vw;
+
+    background: rgb(249, 171, 171);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (max-width:500px) {
+    
+    .splash-container-1{
+        
+        height: 100vh;
+        width: 100%;
+    
+      
+        background: rgb(3, 3, 3);
+        }
+
+
+}
